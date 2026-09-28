@@ -1,0 +1,13 @@
+import numpy as np
+marks = np.array([56,45,67,78,98,90,23,42,13,67])
+average_marks = np.mean(marks)
+highest_marks = np.max(marks)
+lowest_marks = np.min(marks)
+above_75 = np.sum(marks > 75)
+failed_students = np.sum(marks < 40)
+print("Student Marks:", marks)
+print("Average Marks:", average_marks)
+print("Highest Marks:", highest_marks)
+print("Lowest Marks:", lowest_marks)
+print("Above 75:", above_75)
+print("Failed Students:", failed_students)
