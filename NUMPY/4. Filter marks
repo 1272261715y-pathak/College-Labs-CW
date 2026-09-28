@@ -1,0 +1,5 @@
+import numpy as np
+marks = np.array([23,68,56,89,78,70,65,63,79,80,34,67])
+filtered_marks = marks[(marks >= 60) & (marks <= 80)]
+print("Original Marks:", marks)
+print("Filtered Marks:", filtered_marks)
