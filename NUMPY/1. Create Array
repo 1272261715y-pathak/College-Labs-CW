@@ -1,0 +1,7 @@
+import numpy as np
+numbers=np.arrange(1,11)
+squares=numbers**2
+cubes=numbers**3
+print("Numpy array:",numbers)
+print("Squares:",squares)
+print("Cubes:",cubes)
