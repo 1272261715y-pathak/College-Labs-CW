@@ -1,0 +1,13 @@
+def multiply_list(numbers):
+    total_product = 1
+
+    for num in numbers:
+        total_product *= num
+
+    return total_product
+
+my_list = [1,2,3,4,5]
+
+result = multiply_list(my_list)
+
+print("The product is:", result)
