@@ -1,0 +1,7 @@
+def splicer(mynames):
+    if len(mynames)%2==0:
+        return 'even'
+    else:
+        return 'odd' 
+names=['John','Ashi','Sara','Kelly','Rohan']
+print(list(map(splicer,names)))
